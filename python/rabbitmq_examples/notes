@@ -1,0 +1,200 @@
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/raf-espanol/test-.git
+   bbd354c..6c36c1e  master -> master
+
+rafael.espanol@US-PF0UMZG7 MINGW64 ~/src/test/repos/test-/python/rabbitmq_examples (master)
+$ cd ..
+
+rafael.espanol@US-PF0UMZG7 MINGW64 ~/src/test/repos/test-/python (master)
+$ ls
+rabbitmq_examples/  README  selenium_python/
+
+rafael.espanol@US-PF0UMZG7 MINGW64 ~/src/test/repos/test-/python (master)
+$ cd selenium_python/
+
+rafael.espanol@US-PF0UMZG7 MINGW64 ~/src/test/repos/test-/python/selenium_python (master)
+$ ls
+am1.py             example1.py      selenium_tutorial.pdf  selenium-recipes-in-python-sample.pdf
+chromedriver.exe*  geckodriver.log  selenium-python.pdf    seltest2.py
+
+rafael.espanol@US-PF0UMZG7 MINGW64 ~/src/test/repos/test-/python/selenium_python (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   ../../.idea/workspace.xml
+        modified:   ../../vs/ConsoleApp1/.vs/ConsoleApp1/v15/.suo
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        chromedriver.exe
+        selenium-python.pdf
+        selenium-recipes-in-python-sample.pdf
+        selenium_tutorial.pdf
+        ../../vs/ConsoleApp1/.vs/ConsoleApp1/v15/Server/sqlite3/storage.ide-shm
+        ../../vs/ConsoleApp1/.vs/ConsoleApp1/v15/Server/sqlite3/storage.ide-wal
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+rafael.espanol@US-PF0UMZG7 MINGW64 ~/src/test/repos/test-/python/selenium_python (master)
+$ git add chromedriver.exe selenium-python.pdf selenium-recipes-in-python-sample.pdf selenium_tutori                                                                                                                                                                           al.pdf
+
+rafael.espanol@US-PF0UMZG7 MINGW64 ~/src/test/repos/test-/python/selenium_python (master)
+$ git commit -m "added docs for selenium python programming" chromedriver.exe selenium-python.pdf se                                                                                                                                                                           lenium-recipes-in-python-sample.pdf selenium_tutorial.pdf
+[master 7fea2d9] added docs for selenium python programming
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 python/selenium_python/chromedriver.exe
+ create mode 100644 python/selenium_python/selenium-python.pdf
+ create mode 100644 python/selenium_python/selenium-recipes-in-python-sample.pdf
+ create mode 100644 python/selenium_python/selenium_tutorial.pdf
+
+rafael.espanol@US-PF0UMZG7 MINGW64 ~/src/test/repos/test-/python/selenium_python (master)
+$ git push
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 9.49 MiB | 1.73 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/raf-espanol/test-.git
+   6c36c1e..7fea2d9  master -> master
+
+rafael.espanol@US-PF0UMZG7 MINGW64 ~/src/test/repos/test-/python/selenium_python (master)
+$ clear
+
+rafael.espanol@US-PF0UMZG7 MINGW64 ~/src/test/repos/test-/python/selenium_python (master)
+$ cd /c/opt
+
+rafael.espanol@US-PF0UMZG7 MINGW64 /c/opt
+$ ls
+ Emu/   erl9.3/  'RabbitMQ Server'/
+
+rafael.espanol@US-PF0UMZG7 MINGW64 /c/opt
+$ cd RabbitMQ\ Server/
+
+rafael.espanol@US-PF0UMZG7 MINGW64 /c/opt/RabbitMQ Server
+$ ls
+rabbitmq.ico  rabbitmq_server-3.7.4/  uninstall.exe*
+
+rafael.espanol@US-PF0UMZG7 MINGW64 /c/opt/RabbitMQ Server
+$ cd rabbitmq
+bash: cd: rabbitmq: No such file or directory
+
+rafael.espanol@US-PF0UMZG7 MINGW64 /c/opt/RabbitMQ Server
+$ cd rabbitmq_server-3.7.4/
+
+rafael.espanol@US-PF0UMZG7 MINGW64 /c/opt/RabbitMQ Server/rabbitmq_server-3.7.4
+$ ls
+ebin/     include/     LICENSE-APACHE2.txt                 LICENSE-APL2-Stomp-Websocket.txt  LICENSE-erlcloud.txt    LICENSE-MIT-EJS.txt              LICENSE-MIT-Flot.txt       LICENSE-MIT-Mochi.txt     LICENSE-MPL2.txt          plugins/            sbin/
+escript/  INSTALL.txt  LICENSE-APACHE2-excanvas.txt        LICENSE-BSD-base64js.txt          LICENSE-httpc_aws.txt   LICENSE-MIT-EJS10.txt            LICENSE-MIT-jQuery.txt     LICENSE-MIT-Sammy.txt     LICENSE-MPL-RabbitMQ.txt  priv/
+etc/      LICENSE.txt  LICENSE-APACHE2-ExplorerCanvas.txt  LICENSE-BSD-recon.txt             LICENSE-ISC-cowboy.txt  LICENSE-MIT-Erlware-Commons.txt  LICENSE-MIT-jQuery164.txt  LICENSE-MIT-Sammy060.txt  LICENSE-rabbitmq_aws.txt  readme-service.txt
+
+rafael.espanol@US-PF0UMZG7 MINGW64 /c/opt/RabbitMQ Server/rabbitmq_server-3.7.4
+$ cd sbin
+
+rafael.espanol@US-PF0UMZG7 MINGW64 /c/opt/RabbitMQ Server/rabbitmq_server-3.7.4/sbin
+$ ls
+cuttlefish*  rabbitmqctl.bat  rabbitmq-defaults.bat  rabbitmq-diagnostics.bat  rabbitmq-echopid.bat  rabbitmq-env.bat  rabbitmq-plugins.bat  rabbitmq-server.bat  rabbitmq-service.bat
+
+rafael.espanol@US-PF0UMZG7 MINGW64 /c/opt/RabbitMQ Server/rabbitmq_server-3.7.4/sbin
+$ cd %APPDATA%
+bash: cd: %APPDATA%: No such file or directory
+
+rafael.espanol@US-PF0UMZG7 MINGW64 /c/opt/RabbitMQ Server/rabbitmq_server-3.7.4/sbin
+$ cmd
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\opt\RabbitMQ Server\rabbitmq_server-3.7.4\sbin>cd %APPDATA%
+cd %APPDATA%
+
+C:\Users\rafael.espanol\AppData\Roaming>cd
+
+C:\Users\rafael.espanol\AppData\Roaming>pwd
+pwd
+/c/Users/rafael.espanol/AppData/Roaming
+
+C:\Users\rafael.espanol\AppData\Roaming>ls
+ls
+ Adobe   Cisco   ICSharpCode   JetBrains   Microsoft  'Microsoft Visual Studio'   Mozilla   Notepad++   NuGet   RabbitMQ   Skype  'Visual Studio Setup'   vstelemetry   Wireshark
+
+C:\Users\rafael.espanol\AppData\Roaming>cd Rabb*
+cd Rabb*
+
+C:\Users\rafael.espanol\AppData\Roaming\RabbitMQ>ls
+ls
+advanced.config  config  db  enabled_plugins  log  rabbitmq.config.example  schema
+
+C:\Users\rafael.espanol\AppData\Roaming\RabbitMQ>cd log
+cd log
+
+C:\Users\rafael.espanol\AppData\Roaming\RabbitMQ\log>dir
+dir
+ Volume in drive C is Windows
+ Volume Serial Number is 3E55-B305
+
+ Directory of C:\Users\rafael.espanol\AppData\Roaming\RabbitMQ\log
+
+03/21/2018  02:54 PM    <DIR>          .
+03/21/2018  02:54 PM    <DIR>          ..
+03/21/2018  02:54 PM    <DIR>          log
+03/21/2018  05:22 PM            19,860 rabbit@US-PF0UMZG7.log
+03/21/2018  02:54 PM                66 rabbit@US-PF0UMZG7_upgrade.log
+               2 File(s)         19,926 bytes
+               3 Dir(s)  162,131,116,032 bytes free
+
+C:\Users\rafael.espanol\AppData\Roaming\RabbitMQ\log>tail rabbit*.log
+tail rabit*.log
+tail: cannot open 'rabit*.log' for reading: No such file or directory
+
+C:\Users\rafael.espanol\AppData\Roaming\RabbitMQ\log>tail rabbit@US-PFOUMZG7.log
+tail@US-PFOUMZG7.log
+'tail@US-PFOUMZG7.log' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\rafael.espanol\AppData\Roaming\RabbitMQ\log>dir
+dir
+ Volume in drive C is Windows
+ Volume Serial Number is 3E55-B305
+
+ Directory of C:\Users\rafael.espanol\AppData\Roaming\RabbitMQ\log
+
+03/21/2018  02:54 PM    <DIR>          .
+03/21/2018  02:54 PM    <DIR>          ..
+03/21/2018  02:54 PM    <DIR>          log
+03/21/2018  05:22 PM            19,860 rabbit@US-PF0UMZG7.log
+03/21/2018  02:54 PM                66 rabbit@US-PF0UMZG7_upgrade.log
+               2 File(s)         19,926 bytes
+               3 Dir(s)  162,131,165,184 bytes free
+
+C:\Users\rafael.espanol\AppData\Roaming\RabbitMQ\log>bash
+bash
+
+rafael.espanol@US-PF0UMZG7 MINGW64 ~/AppData/Roaming/RabbitMQ/log
+$ tail rabbit\@US-PF0UMZG7.log
+2018-03-21 17:21:58.077 [warning] <0.927.0> closing AMQP connection <0.927.0> ([::1]:53048 -> [::1]:5672, vhost: '/', user: 'guest'):
+client unexpectedly closed TCP connection
+2018-03-21 17:22:25.150 [info] <0.1029.0> accepting AMQP connection <0.1029.0> ([::1]:55278 -> [::1]:5672)
+2018-03-21 17:22:25.157 [info] <0.1029.0> connection <0.1029.0> ([::1]:55278 -> [::1]:5672): user 'guest' authenticated and granted access to vhost '/'
+2018-03-21 17:22:33.925 [info] <0.1047.0> accepting AMQP connection <0.1047.0> ([::1]:55291 -> [::1]:5672)
+2018-03-21 17:22:33.932 [info] <0.1047.0> connection <0.1047.0> ([::1]:55291 -> [::1]:5672): user 'guest' authenticated and granted access to vhost '/'
+2018-03-21 17:22:33.937 [info] <0.1047.0> closing AMQP connection <0.1047.0> ([::1]:55291 -> [::1]:5672, vhost: '/', user: 'guest')
+2018-03-21 17:22:39.835 [info] <0.1062.0> accepting AMQP connection <0.1062.0> ([::1]:55300 -> [::1]:5672)
+2018-03-21 17:22:39.841 [info] <0.1062.0> connection <0.1062.0> ([::1]:55300 -> [::1]:5672): user 'guest' authenticated and granted access to vhost '/'
+2018-03-21 17:22:39.845 [info] <0.1062.0> closing AMQP connection <0.1062.0> ([::1]:55300 -> [::1]:5672, vhost: '/', user: 'guest')
+
+rafael.espanol@US-PF0UMZG7 MINGW64 ~/AppData/Roaming/RabbitMQ/log
+$ cd /c/opt
+
+rafael.espanol@US-PF0UMZG7 MINGW64 /c/opt
+$ ls
+ Emu   erl9.3  'RabbitMQ Server'
+
+rafael.espanol@US-PF0UMZG7 MINGW64 /c/opt
+$
