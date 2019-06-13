@@ -6,4 +6,4 @@ put into directory included in PATH environment variable
 +example1.py is a test python script to make sure it works. a browser tab or window should be 
 launch to the page ( modified to be 'google.com' ) being tested, assert that 'google' is in title.
 
-
++added chromedriver (linux chrome driver) to this repo
