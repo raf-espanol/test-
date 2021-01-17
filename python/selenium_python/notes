@@ -1,4 +1,5 @@
 notes:
+=====
 
 +for linux, download chrome driver and place binary (the driver) in your PATH, ie. 
 put into directory included in PATH environment variable
