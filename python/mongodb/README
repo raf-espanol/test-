@@ -46,3 +46,17 @@ Following are a useful list of Mongo Shell Commands :
     it – result of the last line evaluated; use to further iterate
     exit – quit the mongo shell
 
+    using shell:
+raf@raf-ubuntu16:~/src$ mongo
+MongoDB shell version v4.4.3
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+> db
+test
+> use test
+switched to db test
+> show collections
+> db.testcollection.insert({ name: "Honey", age: 25, cars: [ "Audi R8" ] })
+WriteResult({ "nInserted" : 1 })
+> show collections
+testcollection
+>
