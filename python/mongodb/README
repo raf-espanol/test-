@@ -3,6 +3,7 @@
 
 # to install mongodb go to https://www.mongodb.com/try/download/community?tck=docs_server
 # download the server version (in my case ubuntu 16.04 LTS, used software installer to install
+# update: 2/2/2021 - downloaded windows msi file from community site and installed.
 # start the server using these commands:
 ### sudo systemctl start mongod
 ##  systemctl status mongod
