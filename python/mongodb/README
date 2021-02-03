@@ -14,3 +14,35 @@
 
 ## you may need to install mongo-client to be able to invoke a mongo shell
 ### this is done using the same URL used to install mongodb server. choose ubuntu 16.04 and mongo shell to download
+## installed deb and used software install instead of 'save file' to install to ubuntu 16.04
+mongo --host <host> --port <port_number>
+
+An example is provided below
+mongo --host 192.168.0.104 --port 28019
+
+Now we shall run a simple query db to know the database the shell is pointing to.
+> db
+test
+
+test is a default database.
+
+Mongo Shell Commands
+
+Following are a useful list of Mongo Shell Commands :
+
+    help – show help
+    help admin – administrative help
+    help connect – connecting to a db help
+    help keys – key shortcuts
+    help misc – misc things to know
+    help mr – mapreduce
+    show dbs – show database names
+    show collections – show collections in current database
+    show users – show users in current database
+    show profile – show most recent system.profile entries with time >= 1ms
+    show logs – show the accessible logger names
+    show log [name] – prints out the last segment of log in memory, ‘global’ is default
+    use <db_name> – set current database
+    it – result of the last line evaluated; use to further iterate
+    exit – quit the mongo shell
+
