@@ -10,3 +10,4 @@
 ##   to stop/shutdown use 'stop'
 
 ## you may need to install mongo-client to be able to invoke a mongo shell
+### this is done using the same URL used to install mongodb server. choose ubuntu 16.04 and mongo shell to download
