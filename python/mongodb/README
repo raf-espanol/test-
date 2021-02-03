@@ -1,2 +1,12 @@
 ##notes on mongodb programming
 # adding this readme file.
+
+# to install mongodb go to https://www.mongodb.com/try/download/community?tck=docs_server
+# download the server version (in my case ubuntu 16.04 LTS, used software installer to install
+# start the server using these commands:
+### sudo systemctl start mongod
+##  systemctl status mongod
+##  to restart use 'restart'
+##   to stop/shutdown use 'stop'
+
+## you may need to install mongo-client to be able to invoke a mongo shell
