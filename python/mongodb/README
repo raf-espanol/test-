@@ -12,6 +12,9 @@
 ##  to restart use 'restart'
 ##   to stop/shutdown use 'stop'
 
+
+#mongo shell client:
+# https://www.tutorialkart.com/mongodb/mongodb-create-collection/ for tutorials
 ## you may need to install mongo-client to be able to invoke a mongo shell
 ### this is done using the same URL used to install mongodb server. choose ubuntu 16.04 and mongo shell to download
 ## installed deb and used software install instead of 'save file' to install to ubuntu 16.04
