@@ -1,0 +1,59 @@
+Test Automation Definition
+
+Being in the software industry, we very well know that test automation is defined as a process of performing software testing activity by utilizing various test automation tools, the type of test automation tools can either be open source or licensed versions. 
+
+Here’s a list of the popular test automation tools (HP’s Unified Functional Testing [UFT], Selenium, IBM’s Rational Functional Tester [RFT], FitNesse etc.). 
+
+Before initiating test automation, it is profoundly recommended by software quality assurance experts to create a test automation framework, which would not only support the entire software testing process, but also help in improving the quality of software testing process. 
+
+In a way test automation framework allows a software tester or software testing company to effectively perform automated software testing.
+
+
+Test Automation Framework Design
+
+Generally speaking, a framework is defined as a real or conceptual structure created to provide support or guidance to an entity that could expand in future. A few others define it as an organization’s way of doing things. 
+
+In the software industry, it is a widely accepted practice to follow a set of standards or frameworks that could help in successful execution of software projects. 
+
+In simple terms, a test automation framework can be defined as a set of processes, standards and interactions between the components in which scripts are designed and executed.
+
+Below are some of the key parameters that a software tester needs to keep in mind, while developing a test automation framework.
+
+    +Handle scripts and data separately
+    +Create libraries
+    +Follow coding standards
+    +Offer high extensibility
+    +Less maintenance
+    +Script/Framework version control
+
+Let’s explore each of this point in detail.
+
+
+Handle scripts and data separately
+
+Automated test scripts should be clearly separated from the input data store (e.g. XML, Ms-Excel files, Flat files or Databases), so that no modifications are required to the test scripts whenever data has to be changed for multiple input values.
+
+
+Library
+
+A library should contain all reusable components and external connections such as databases, generic functions, application functions etc. Software testers should be exposed only to the implemented libraries and tests should be performed by invoking these libraries.
+Coding Standards
+
+Scripting standards should always be maintained across the test automation framework, which will discourage individual coding practices and help in maintaining code uniformity, which makes it easier for software testers and developers to interpret.
+
+
+Extensibility and Maintenance
+
+An ideal test automation framework should steadily support all new enhancements to the software application and allow modification of existing features e.g. A reusable library can be created, which would help in enhancing application features with minimal effort.
+
+
+Script/Framework Versioning
+
+Versions of framework / scripts should be maintained either in a local repository or versioning tool, which would help in easy monitoring of changes to the software code.
+
+
+Conclusion
+
+In today’s software development environment, test automation framework has become an integral component of a software testing life cycle. 
+
+By following the above test automation framework design guidelines, software testers and software testing companies can immensely benefit by executing successful and maintainable test automation projects.
